@@ -56,4 +56,10 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    // view model
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    //hilt
+    implementation(libs.androidx.core.ktx) // Correct
+    implementation(libs.androidx.hilt.navigation.compose)// This is a String literal
+
 }
